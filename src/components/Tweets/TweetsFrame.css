@@ -1,0 +1,74 @@
+.tweet {
+    color: black;
+    margin: 20px 0 20px 20px;
+    text-align: left;
+}
+
+.avatar-header {
+    display: flex;
+}
+
+.avatar-name {
+    margin: 0 0 0 10px;
+}
+
+.avatar-pic {
+    border-radius: 50%;
+    height: 50px;
+    margin-top: 7px;
+    width: 50px;
+}
+
+.contact-info {
+    align-items: center;
+    display: flex;
+}
+
+.verification-icon {
+    width: 25px;
+    padding-left: 10px;
+}
+.avatar-nickname,
+.date {
+    color: #808080;
+    padding-left: 10px;
+}
+
+.text {
+    margin: 0 0 10px 60px;
+    font-weight: 500;
+}
+
+.post-pic {
+    border-radius: 3%;
+    margin-left: 60px;
+    width: 900px;
+}
+
+.message-icon,
+.like-icon,
+.save-icon {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.avatar-icon {
+    display: flex;
+    align-items: center;
+}
+
+.repost-icon {
+    width: 27px;
+}
+
+
+.message-num {
+    color: #808080;
+}
+
+.avatar-footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1000px;
+}

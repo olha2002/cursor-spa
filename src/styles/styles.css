@@ -1,0 +1,17 @@
+:root {
+    --backgroundColor: rgb(248, 248, 248);
+}
+
+body {
+    background-color: var(--backgroundColor);
+    color: black;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}

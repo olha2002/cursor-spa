@@ -1,0 +1,34 @@
+.contact-initials {
+    margin-top: 20px;
+    display: flex;
+    background-color: white;
+    padding: 10px;
+}
+
+.person-image {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.initials {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.last-name,
+.phone {
+    margin-left: 5px;
+}
+
+.phone {
+    margin-top: 5px;
+    color: gray;
+}
+
+.gender-icon {
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 25px;
+}

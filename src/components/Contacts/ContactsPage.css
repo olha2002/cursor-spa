@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.contacts-menu {
+    font-size: 36px;
+    margin: 0;
+}
+
+#search-field {
+    background-color: rgb(231, 228, 228);
+    border-radius: 10px;
+    border: 0;
+    color: gray;
+    font-size: 18px;
+    padding: 5px;
+    width: 550px;
+}
+
+#search-field:focus {
+    outline: 0;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.male-checkbox {
+    margin: 0 20px;
+    fill: dodgerblue;
+}
+
+.female-checkbox {
+    fill:deeppink;
+}
+
+.male-checkbox:active,
+.female-checkbox:active {
+    fill: black;
+}
