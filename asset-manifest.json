@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/cursor-spa/static/css/main.796abca5.css",
+    "main.js": "/cursor-spa/static/js/main.9f177d09.js",
+    "static/js/787.dbe9e397.chunk.js": "/cursor-spa/static/js/787.dbe9e397.chunk.js",
+    "static/media/undefined.svg": "/cursor-spa/static/media/undefined.dd67c480dff7c4b9bd32.svg",
+    "static/media/Анонімний.jpg": "/cursor-spa/static/media/Анонімний.8add9eedcbe69c548c4b.jpg",
+    "static/media/verification.svg": "/cursor-spa/static/media/verification.57f75bcd58f8653d95559bccde1702b6.svg",
+    "static/media/like.svg": "/cursor-spa/static/media/like.832ece55e156cb07b9bf54ac16ac6080.svg",
+    "static/media/message.svg": "/cursor-spa/static/media/message.3f68eeb3a8e465958e8947d6ae1885a6.svg",
+    "static/media/save.svg": "/cursor-spa/static/media/save.aebc502ee97cb9327f4ef183df1b2b41.svg",
+    "static/media/female.svg": "/cursor-spa/static/media/female.47ceea2a282a039e81c7.svg",
+    "index.html": "/cursor-spa/index.html",
+    "static/media/male.svg": "/cursor-spa/static/media/male.c641af10a1b908ebae48.svg",
+    "static/media/repost.svg": "/cursor-spa/static/media/repost.f3de95df6a1ff85e8275a1a7a1f87e18.svg",
+    "main.796abca5.css.map": "/cursor-spa/static/css/main.796abca5.css.map",
+    "main.9f177d09.js.map": "/cursor-spa/static/js/main.9f177d09.js.map",
+    "787.dbe9e397.chunk.js.map": "/cursor-spa/static/js/787.dbe9e397.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.796abca5.css",
+    "static/js/main.9f177d09.js"
+  ]
+}
