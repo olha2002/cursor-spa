@@ -5,7 +5,7 @@ import "./Nav.css";
 export default class Nav extends Component {
   render() {
     return (
-      <nav>
+      <nav className="header">
         <ul className="nav_links">
           <li className="nav_link">
             <NavLink to="/">Home</NavLink>

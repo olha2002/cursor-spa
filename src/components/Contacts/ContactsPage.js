@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { contacts } from "../../constants/users";
-import Contact from "./Contact";
+import Contact from "../Contact/Contact";
 import { v4 } from "uuid";
 import "./ContactsPage.css";
 import MaleIcon from "../../icons/MaleIcon";
@@ -14,19 +14,21 @@ export const ContactsPage = () => {
   const [undefinedChecked, setUndefinedChecked] = useState(false);
   const [value, setValue] = useState("");
 
+  const filteredContactsFunc = () => filteredContacts;
+
   const handleMaleChangeCheck = () => {
     setMaleChecked(!maleChecked);
-    filteredContacts();
+    filteredContactsFunc();
   };
 
   const handleFemaleChangeCheck = () => {
     setFemaleChecked(!femaleChecked);
-    filteredContacts();
+    filteredContactsFunc();
   };
 
   const handleUndefinedChangeCheck = () => {
     setUndefinedChecked(!undefinedChecked);
-    filteredContacts();
+    filteredContactsFunc();
   };
 
   const filteredContacts = list

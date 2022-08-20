@@ -5,20 +5,14 @@ import repostIcon from "../../icons/repost.svg";
 import likeIcon from "../../icons/like.svg";
 import saveIcon from "../../icons/save.svg";
 
-const TweetsFrame = ({
-  author,
-  content,
-  image,
-  date,
-  comments = 482,
-  reposts = 146,
-  likes = 887,
-}) => {
+const TweetsFrame = ({ data }) => {
+  const { author, content, image, date, actions } = data;
   const { name, photo, nickname } = author;
+  const { comments, reposts, likes } = actions;
 
   return (
     <div className="tweet">
-      <div class="avatar-header">
+      <div className="avatar-header">
         <div className="avatar">
           <img src={photo} alt={name} className="avatar-pic" />
         </div>
@@ -33,18 +27,18 @@ const TweetsFrame = ({
         <p className="text">{content}</p>
         <img src={image} alt="Ray" className="post-pic" />
       </div>
-      <div class="avatar-footer">
-        <div class="avatar-icon">
+      <div className="avatar-footer">
+        <div className="avatar-icon">
           <img src={messageIcon} alt="#" className="message-icon" />
           <span className="message-num">{comments}</span>
         </div>
 
-        <div class="avatar-icon">
+        <div className="avatar-icon">
           <img src={repostIcon} alt="#" className="repost-icon" />
           <span className="message-num">{reposts}</span>
         </div>
 
-        <div class="avatar-icon">
+        <div className="avatar-icon">
           <img src={likeIcon} alt="#" className="like-icon" />
           <span className="message-num">{likes}</span>
         </div>
