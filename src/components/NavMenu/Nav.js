@@ -8,7 +8,7 @@ export default class Nav extends Component {
       <nav className="header">
         <ul className="nav_links">
           <li className="nav_link">
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/home">Home</NavLink>
           </li>
           <li className="nav_link">
             <NavLink to="/tweets">Twitters</NavLink>
